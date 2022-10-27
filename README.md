@@ -6,10 +6,10 @@ I needed a project similar to [sharpshares - mitchmoser](https://github.com/mitc
 
 ## Who did I steal code from
 I barely wrote any of this code, most(almost all) of it was borrowed. These projects are fantastic and I stand on the shoulders of giants. 
-Ldap queries from [sharpshares - mitchmoser](https://github.com/mitchmoser/SharpShares)
-Python base from [GetADUsers.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/GetADUsers.py)
-Python LDAP from [ldap.py](https://github.com/SecureAuthCorp/impacket/blob/master/impacket/ldap/ldap.py)
-Python SMB from  [smbmap.py](https://github.com/ShawnDEvans/smbmap)
+- Ldap queries from [sharpshares - mitchmoser](https://github.com/mitchmoser/SharpShares)
+- Python base from [GetADUsers.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/GetADUsers.py)
+- Python LDAP from [ldap.py](https://github.com/SecureAuthCorp/impacket/blob/master/impacket/ldap/ldap.py)
+- Python SMB from  [smbmap.py](https://github.com/ShawnDEvans/smbmap)
 
 ## Installation
 ### Pipx
@@ -98,7 +98,6 @@ Computer: Win10-Dev.empire.net
 
 ### Output results to results.csv and pretty print
 ```
-```
 PS> python .\GetDomainShares.py -ldapq all -dc-ip 192.168.126.10 -csv results.csv -pretty empire.net/vader:P@ssw0rd
 [+] Query: all enabled computers with "primary" group "Domain Computers"
 
@@ -120,5 +119,4 @@ Computer: Win10-Dev.empire.net
         C$                                                      NO ACCESS       Default share
         IPC$                                                    READ ONLY       Remote IPC
         Users                                                   READ ONLY
-```
 ```
