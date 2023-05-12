@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "listdomainshares"
+name = "getdomainshares"
 version = "0.1.0"
 description = "List all shares on all computers within the domain"
 authors = ["Your Name <you@example.com>"]
@@ -10,6 +10,8 @@ python = "^3.8"
 impacket = "^0.10.0"
 termcolor = "^2.0.1"
 
+[tool.poetry.scripts]
+getdomainshares = 'getdomainshares:getdomainshares.main'
 
 [build-system]
 requires = ["poetry-core"]
